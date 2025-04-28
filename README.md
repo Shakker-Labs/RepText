@@ -29,6 +29,24 @@ We present RepText, which aims to empower pre-trained monolingual text-to-image 
 <img src='assets/infer.png' width=1024>
 </div>
 
+## Usage
+
+## Compatibility to Other Works
+- [FLUX.1-dev-ControlNet-Union-Pro-2.0](https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro-2.0).
+<div align="center">
+<img src='assets/union.png' width=1024>
+</div>
+
+- [FLUX.1-dev-Controlnet-Inpainting-Beta](https://huggingface.co/alimama-creative/FLUX.1-dev-Controlnet-Inpainting-Beta).
+<div align="center">
+<img src='assets/inpaint.png' width=1024>
+</div>
+
+- [FLUX.1-dev-IP-Adapter](https://huggingface.co/InstantX/FLUX.1-dev-IP-Adapter).
+<div align="center">
+<img src='assets/ipa.png' width=1024>
+</div>
+
 ## Generated Samples
 
 <div align="center">
@@ -37,8 +55,6 @@ We present RepText, which aims to empower pre-trained monolingual text-to-image 
 <img src='assets/example4.png' width=1024>
 <img src='assets/example5.png' width=1024>
 </div>
-
-## Usage
 
 ## Cite
 If you find RepText useful for your research and applications, please cite us using this BibTeX:
