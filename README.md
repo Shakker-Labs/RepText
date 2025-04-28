@@ -16,8 +16,6 @@ We present RepText, which aims to empower pre-trained monolingual text-to-image 
 </div>
 
 ## Release
-- [2025/05/01] 🔥 Werelease the [technical report](https://arxiv.org/abs/2404.02733).
-
 
 ## Method
 
