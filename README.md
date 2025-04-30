@@ -57,6 +57,14 @@ We present RepText, which aims to empower pre-trained monolingual text-to-image 
 ## Cite
 If you find RepText useful for your research and applications, please cite us using this BibTeX:
 ```bibtex
-
+@misc{wang2025reptextrenderingvisualtext,
+      title={RepText: Rendering Visual Text via Replicating}, 
+      author={Haofan Wang and Yujia Xu and Yimeng Li and Junchen Li and Chaowei Zhang and Jing Wang and Kejia Yang and Zhibo Chen},
+      year={2025},
+      eprint={2504.19724},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.19724}, 
+}
 ```
 For any question, feel free to contact us via haofanwang.ai@gmail.com.
