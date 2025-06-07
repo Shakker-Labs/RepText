@@ -25,7 +25,7 @@ def canny(img):
 if __name__ == "__main__":
     
     base_model = "black-forest-labs/FLUX.1-dev"
-    controlnet_model = "/opt/liblibai-models/user-workspace/wanghaofan/workspace/flux/glyphcontrol/models/flux-controlnet-glyph-multilingual-anytext-v5-bucket-finetune-v3/checkpoint-25000/controlnet"
+    controlnet_model = "Shakker-Labs/RepText"
 
     controlnet = FluxControlNetModel.from_pretrained(controlnet_model, torch_dtype=torch.bfloat16)
     pipe = FluxControlNetPipeline.from_pretrained(

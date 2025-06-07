@@ -53,11 +53,11 @@ def extract_dwpose(img, include_body=True, include_hand=True, include_face=True)
 
 if __name__ == "__main__":
         
-    base_model = "/opt/liblibai-models/model-weights/black-forest-labs/FLUX.1-dev"
-    controlnet_model = "/opt/liblibai-models/user-workspace/wanghaofan/workspace/flux/glyphcontrol/models/flux-controlnet-glyph-multilingual-anytext-v5-bucket-finetune-v3/checkpoint-25000/controlnet"
+    base_model = "black-forest-labs/FLUX.1-dev"
+    controlnet_model = "Shakker-Labs/RepText"
     
     controlnet = FluxControlNetModel.from_pretrained(controlnet_model, torch_dtype=torch.bfloat16)
-    controlnet_inpaint = FluxControlNetModel.from_pretrained("/opt/liblibai-models/model-weights/alimama-creative/FLUX.1-dev-Controlnet-Inpainting-Beta", torch_dtype=torch.bfloat16)
+    controlnet_inpaint = FluxControlNetModel.from_pretrained("alimama-creative/FLUX.1-dev-Controlnet-Inpainting-Beta", torch_dtype=torch.bfloat16)
 
     pipe = FluxControlNetPipeline.from_pretrained(
         base_model, controlnet=controlnet, controlnet_inpaint=controlnet_inpaint, torch_dtype=torch.bfloat16
